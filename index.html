@@ -1,61 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
   <title>Affan Tamboli | Data Analyst</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<button onclick="toggleDark()">🌙</button>
+
 <header>
   <h1>Affan Tamboli</h1>
-  <p>Data Analyst | Excel • SQL • Power BI • Python</p>
-  <a href="projects.html" class="btn">View My Projects</a>
+  <p>Data Analyst | Excel | SQL | Power BI | Python</p>
+
+  <a href="Affan_Tamboli_Data_Analyst_Resume.pdf" target="_blank">Resume</a>
+  <a href="https://github.com/affantamboli62" target="_blank">GitHub</a>
+  <a href="https://linkedin.com" target="_blank">LinkedIn</a>
 </header>
 
-<section class="card">
-  <h2>👋 About Me</h2>
-  <p>
-    I am a Data Analyst passionate about transforming raw data into meaningful
-    business insights. I work with Excel, SQL, Power BI, and Python to analyze,
-    visualize, and communicate data-driven solutions.
-  </p>
+<section>
+  <h2>About Me</h2>
+  <p>I am a Data Analyst who converts raw data into business insights.</p>
 </section>
 
-<section class="card">
-  <h2>🛠 Skills</h2>
-  <div class="skills">
-    <span>Excel</span>
-    <span>SQL</span>
-    <span>Power BI</span>
-    <span>Python</span>
-    <span>Statistics</span>
-  </div>
+<section>
+  <h2>Projects</h2>
+
+  <h3>Power BI Project</h3>
+  <img src="powerbi.png" width="300">
+  <p>Ecommerce sales dashboard</p>
+
+  <h3>Python Project</h3>
+  <img src="python.png" width="300">
+  <p>Customer risk analysis</p>
+
+  <h3>SQL Project</h3>
+  <img src="sql.png" width="300">
+  <p>SQL business queries</p>
 </section>
 
-<section class="card">
-  <h2>📂 Featured Projects</h2>
-
-  <div class="project">
-    <h3>📊 Ecommerce Sales Analysis (Power BI)</h3>
-    <p>Interactive dashboard analyzing sales, profit, regions, and categories.</p>
-  </div>
-
-  <div class="project">
-    <h3>🐍 Customer Risk & Bank Analysis (Python)</h3>
-    <p>Statistical analysis using Python to identify customer risk patterns.</p>
-  </div>
-
-  <div class="project">
-    <h3>🗄 SQL Data Analysis Project</h3>
-    <p>SQL queries for data extraction, aggregation, and business insights.</p>
-  </div>
-
-</section>
-
-<footer>
-  <p>© 2026 Affan Tamboli | Data Analyst</p>
-</footer>
+<script>
+function toggleDark() {
+  document.body.classList.toggle("dark");
+}
+</script>
 
 </body>
 </html>
