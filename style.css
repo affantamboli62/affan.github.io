@@ -1,29 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
 body {
-  font-family: Arial;
-  background: #f4f6fb;
+  background: linear-gradient(to right, #eef2f3, #d9e4f5);
   color: #333;
+  transition: 0.4s;
 }
 
 .dark {
   background: #121212;
-  color: white;
+  color: #f1f1f1;
 }
 
 header {
-  background: blue;
+  background: linear-gradient(135deg, #667eea, #764ba2);
   color: white;
-  padding: 30px;
+  padding: 60px 20px;
   text-align: center;
 }
 
-section {
-  background: white;
-  margin: 20px;
-  padding: 20px;
+.links a {
+  display: inline-block;
+  margin: 10px;
+  background: #ffce00;
+  color: #333;
+  padding: 10px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.dark section {
+.toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.dark .card {
   background: #1e1e1e;
+}
+
+.skills span {
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  color: white;
+  padding: 8px 14px;
+  margin: 6px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.project {
+  display: flex;
+  gap: 15px;
+  background: #f5f7ff;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 160px;
+  border-radius: 10px;
+}
+
+.project a {
+  color: #667eea;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dark .project {
+  background: #2a2a2a;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
 }
 
 
